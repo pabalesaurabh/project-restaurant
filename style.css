@@ -1,0 +1,466 @@
+body{
+    background-color:rgb(151, 141, 141);
+}
+
+
+.container1{
+    border-bottom: 2px solid black;
+    
+    color: black;
+    width: 40%;
+    margin-bottom: 10px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding:10px;
+
+}
+
+.container2{
+   
+    border-bottom: 2px solid black;
+    color: black;
+    width:  40%;
+    margin-bottom: 10px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    padding:10px;
+    
+}
+
+.container3{
+    
+    border-bottom: 2px solid black;
+    color: black;
+    width: 40%;
+    margin-bottom: 10px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    padding:10px;
+    
+    
+}
+
+@media (max-width:900px){
+    .container1{
+        width: auto;
+        font-size: 12px;
+        padding:0px;
+       
+    }
+
+
+}
+
+@media (max-width:900px){
+    .container2{
+        width: auto;
+        font-size: 12px;
+        padding:0px;
+    }
+
+   a,strong{
+        font-size: 200%;
+    }
+}
+
+@media (max-width:900px){
+    .container3{
+        width: auto;
+        font-size: 12px;
+        padding:0px;
+    }
+}
+
+@media (max-width:500px){
+    .mt-0{
+        font-size: 12px;
+    }
+}
+
+h1{
+    color:EADECC;
+    padding: 15px;
+    font-family: 'Concert One';
+    font-size: 45px;
+
+}
+
+.pocket{
+    width: 50%;
+    float: right;
+}
+
+.box{
+    position: relative;
+    
+}
+.box div1{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 18px;
+   
+    
+}
+div1{
+  box-sizing: border-box;
+    width: 46%;
+    height: auto;
+}
+
+
+
+@media (max-width:1000px){
+    .box div1{
+        
+        position: relative;
+        top: 0;
+        right: 0px;
+        font-size: 18px;
+        margin: 10px;
+        }
+
+        div1>h2{
+            
+            padding:0px;
+    
+        }
+
+        .box div1>p{
+            width: auto;
+            font-size: 25px;
+            font-family: 'Lexend Deca'
+           
+           ;
+         }
+
+     
+}
+
+
+    div1>h2{
+        font-family: 'Concert One';
+        font-size: 50px;
+        padding: 20px 0px 20px 20px;
+
+    }
+
+    div1>p{
+       font-size: 25px;
+       font-family: 'Lexend Deca'
+    }
+
+    
+    
+  img{
+      margin: 15px;
+      border: 2px solid black;
+      border-radius: 10px;
+  }
+
+  .containers{
+      position: relative;
+  }
+
+  #bun{
+      float: right;
+  }
+
+  #menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+  }
+  #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  
+  #menu-tile {
+    background: url('images/men.jpg') no-repeat;
+    background-position: center;
+    border: 3px solid black;
+  }
+  #specials-tile {
+    background: url('images/bchicken.jpg') no-repeat;
+    background-position: center;
+    border: 3px solid black;
+  }
+  
+  #menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+    border: 3px solid black;
+  }
+ /* 
+  @media (max-width: 767px) {
+
+   #menu-tile, #specials-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+      }
+  }
+
+  @media (max-width: 479px) {
+
+    #menu-tile, #specials-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+      }
+  }*/
+
+  #tiles1.container{
+
+       margin-top: 50px;
+       margin-bottom: 50px;
+       
+
+    
+  }
+
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+   
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; 
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+
+  .containerx{
+    background-color:rgb(43, 37, 37);
+    color: whitesmoke;
+  }
+  
+
+.containerx strong{
+
+    font-size: 25px;
+    font-family: 'Lexend Deca'
+
+}
+ 
+
+
+#testimonials img{
+
+    margin: 8px;
+}
+
+@media (max-width:900px){
+    #testimonials img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+#testimonials h3{
+    font-family: 'Concert One';
+    margin-top:20px;
+    margin-bottom: 0px;
+
+}
+
+.navbar,.card,.text-white,.bg-dark,.mb-3{
+    border-radius: 0;
+}
+
+
+/* menu */
+
+
+@media (min-width: 768){
+.card-deck .s{
+   margin:20px;
+   
+
+}
+}
+
+.card-deck,.s{
+
+    margin:40px 20px 100px 20px;
+
+}
+
+.card-img-top,.siz{
+
+    width: 95%;
+}
+
+.card,.text-white,.bg-dark,.mb-3{
+    border-radius: 15px;
+}
+
+.menus>h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+}
+    
+/*about us*/
+
+
+.abtus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+
+
+@media (max-width: 425){
+    .abtus,.card,.bg-dark,.text-white,.card-img{
+        height: 250px;
+    }
+}
+.card-img-overlay>span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+}
+
+.card-text{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+
+a {
+    font-size: 150%;
+    color: black;
+}
+.clr{
+    background-color:rgb(151, 141, 141);
+}
+
+.company>h1{
+    color: black;
+    
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    
+    background-color: rgb(92, 86, 86);
+}
+
+/*vacancy*/
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10%;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 5%;
+    border:2px solid black;
+    width: 70%;
+    height: auto;
+    
+ 
+    
+}
+
+label  {
+    color: black;
+    font-size: 20px;
+    
+}
+
+@media(max-width: 768px){
+    p7 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #seven{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 768px){
+    #smal{
+        font-size: 20px;
+    }
+
+    #sats{
+        font-size: 20px;
+    }
+
+    #xtra{
+        font-size: 35px;
+    }
+
+    #stra{
+        font-size: 20px;
+    }
+
+    #idex{
+        margin: 10px;
+    }
+}
+
+/*feedback*/
+
+.form7{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#fdb{
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/*rate us*/
+.rate{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.checked {
+    
+    color: orange;
+  }
+
+  #str{
+      font-size: 300%;
+      margin: 0%;
+      padding: 0%;
+
+  }
+  
